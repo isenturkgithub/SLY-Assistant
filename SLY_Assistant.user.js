@@ -26,6 +26,10 @@
     let customWriteRPCs = [];
 
     let saRPCs = [
+	    'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
+		'https://rpc.hellomoon.io/57dbc69d-7e66-4454-b33e-fa6a4b46170f', //Hello Moon
+        'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
+        'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
         'https://rpc.ironforge.network/mainnet?apiKey=01JEEEQP3FTZJFCP5RCCKB2NSQ',
     ];
     let readRPCs = customReadRPCs.concat(saRPCs);
